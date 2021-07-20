@@ -1,0 +1,311 @@
+body {
+  font-family: "Open Sans";
+  color: grey;
+  position: relative;
+}
+
+
+/* ----- Header ----- */
+
+h1 {
+  color: grey;
+  font-family: "Ubuntu";
+  margin-bottom: 16px;
+}
+
+.pg-header {
+  padding-top: 40px!important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: darkgrey;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+/* ----- Heroes -----*/
+
+#heroes {
+margin: 0 18%;
+}
+
+#heroes img {
+  width: 22%;
+}
+
+#heroes h1 {
+  font-size: 4rem;
+}
+
+#heroes p {
+  font-size: 1.7rem;
+}
+
+/* ----- Experience ----- */
+
+h4 {
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.exp-row {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.exp-row p {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.iss-logo-left, .iss-logo-right, .pccu-logo {
+  margin: 16px auto;
+  width: 14%;
+}
+
+.text-muted {
+  font-size: 1.3rem;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+/* ----- Education ----- */
+
+.edu-col {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.edu-col p {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+
+
+/* ----- Skills ----- */
+
+.skills-col {
+  margin: 8% 10%;
+  text-align: center;
+}
+
+.skills-title {
+  margin-bottom: 50px;
+}
+
+.skills-logo {
+  margin: 35px 35px;
+  width: 16%;
+}
+
+/* ----- Works ----- */
+
+.works-row {
+  margin: 9% 22%;
+  text-align: center;
+}
+
+.works-row p {
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+
+.blog-logo, .note-logo {
+  margin: 50px auto 20px auto;
+  width: 36%;
+}
+
+/* ----- Contact ----- */
+
+.cta-col {
+  text-align: center;
+  margin: 96px auto;
+}
+
+.cta-title {
+  margin-bottom: 28px;
+}
+
+.cta-col p {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.btn {
+  font-size: 1.4rem;
+  height: 26%;
+  width: 18%;
+  margin-top: 45px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+footer p {
+  color: darkgrey;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  color: darkgrey;
+  margin: 14px;
+}
+
+.footer-logo:hover {
+  color: grey;
+}
+
+/* Desktop screen */
+
+@media (min-width: 1028px) {
+
+  h4 {
+    font-size: 1.7rem;
+  }
+
+  .text-muted {
+    font-size: 1rem;
+  }
+
+  /* ----- Heroes -----  */
+
+  #heroes {
+   margin: 0;
+  }
+
+  #heroes img {
+    width: 8%;
+  }
+
+  #heroes h1 {
+    font-size: 2.9rem;
+  }
+
+  #heroes p {
+    font-size: 1.4rem;
+  }
+
+  /* ----- Experience & Works-----  */
+
+  .exp-row, .works-row {
+    margin: 0 26%;
+  }
+
+  .exp-row p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .exp-col-left, .blog-col {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .exp-col-right, .note-col {
+    text-align: right;
+    margin-bottom: 40px;
+  }
+
+  .iss-logo-left {
+    float: left;
+    margin: 0 20px 140px 0;
+    width: 14%;
+  }
+
+  .iss-logo-right {
+    float: right;
+    margin:0 0 140px 20px;
+    width: 14%;
+  }
+
+  /* ----- Education -----  */
+
+  .pccu-logo {
+    margin: 16px 0;
+    width: 9%;
+  }
+
+  .edu-col {
+    margin: 94px 0;
+    text-align: center;
+  }
+
+  .edu-col p {
+    font-size: 1.2rem;
+  }
+
+  /* ----- Skills -----  */
+
+  .skills-col {
+    margin: 8% 10%;
+  }
+
+  .skills-logo {
+    width: 10%;
+  }
+
+  /* ----- Works -----  */
+
+  .works-heading {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .works-row p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+
+  .blog-logo {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 18%;
+  }
+
+  .note-logo {
+    float: right;
+    margin:0 0 20px 20px;
+    width: 18%;
+  }
+
+  /* ----- Contact ----- */
+
+  .cta-col p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    height: 20%;
+    width: 8%;
+  }
+
+  /* ----- Footer ----- */
+
+  footer p {
+    font-size: 0.98rem;
+  }
+
+  .footer-logo {
+    margin: 12px;
+  }
+
+
+}
